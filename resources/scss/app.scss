@@ -1,6 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 
-header {
+.container-header {
     margin: auto;
     width: 1200px;
     height: 6rem;
@@ -17,4 +17,11 @@ header {
         list-style: none;
         gap: 1rem;
     }
+}
+
+.jumbo {
+    background-image: url("../../images/jumbotron.jpg");
+    height: 18rem;
+    width: 100%;
+    background-size: cover;
 }
