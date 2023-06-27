@@ -42,11 +42,14 @@
         </header>
 
         <main>
+            
             <div class="container-main">
                 @foreach ($arrComics as $comic)
+                {{-- {{ dd($comic) }} --}}
+
                     <div class="comic">
-                        <img src="{{ Vite::asset('../../images/dc-comics-detective.jpg')}}" alt="">
-                        <p>{{$comic['title']}}</p>
+                        <img class="size-img" src="{{ Vite::asset('../../images/action-comics.jpg')}}" alt="">
+                        <h2>{{$comic['title']}}</h2>
                     </div>
                 @endforeach
             </div>
