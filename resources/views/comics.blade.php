@@ -7,7 +7,18 @@
         @vite('resources/js/app.js')
     </head>
     <body>
-       
         {{-- <img src="{{ Vite::asset('resources/img/picsum30.jpg') }}" alt=""> --}}
+
+        <header>
+
+        </header>
+
+        <main>
+
+        </main>
+
+        <footer>
+            
+        </footer>
     </body>
 </html>
