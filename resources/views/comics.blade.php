@@ -11,6 +11,25 @@
 
         <header>
 
+            <div>
+                <img class="size-img"  src="{{ Vite::asset('../../images/dc-logo.png') }}" alt="">
+            </div>
+
+            <div class="nav-bar">
+                <ul>
+                    <li><strong> CHARACTERS </strong></li>
+                    <li><strong>COMICS</strong></li>
+                    <li><strong>MOVIES</strong></li>
+                    <li><strong>TV</strong></li>
+                    <li><strong>GAMES</strong></li>
+                    <li><strong>COLLECTIBLES</strong></li>
+                    <li><strong>VIDEOS</strong></li>
+                    <li><strong>FANS</strong></li>
+                    <li><strong>NEWS</strong></li>
+                    <li><strong>SHOP</strong></li>
+                </ul>
+            </div>
+
         </header>
 
         <main>
@@ -18,7 +37,7 @@
         </main>
 
         <footer>
-            
+
         </footer>
     </body>
 </html>
